@@ -205,10 +205,10 @@ right:512px;
     width: 100%;
 }
 .banner-title{
-    font-size:2.4rem;
+    font-size:2rem;
 }
 .banner-description{
-    font-size:1.27rem;
+    font-size:1rem;
 }
 .banner-left{
     padding-left: 16px;
@@ -226,16 +226,49 @@ right:512px;
 }
 .plants{
     margin-top:65px;
+    margin-left: 16px;
+    margin-right: 16px;
+        
+    
 }
 
 .plants-title{
-    font-size:2.4rem;   
+    font-size:1.6rem;   
 }
 .plants-sub-title{
-    font-size: 1.27rem;   
+    font-size:0.875rem;   
 }
 .break{
     display: none;
+}
+
+/* Plant Lover Section */
+
+.plants-lover{
+    flex-direction: column;
+    gap:32px;
+}
+.flower-shop{
+    width: 100%;
+}
+.plants-lover-right{
+    margin: 0 auto;
+    
+}
+.plants-lover{
+    margin-top: 60px;
+    margin-left: 16px;
+    margin-right: 16px;
+        
+}
+.trusted-badge{
+    display: none;
+}
+.plants-lover-title{
+    font-size:1.5rem;
+}
+.plants-lover-right ul li{
+    font-size:0.875rem;
 }
 
 

@@ -96,7 +96,7 @@ nav{
         
     }
     nav img{
-        transform: scale(1);
+        width:100px;
     }
     .nav-item-responsive{
     font-size: 1rem;
@@ -107,7 +107,28 @@ nav{
     }
 
     /* Banner Section */
-    
+    .banner{
+        flex-direction: column-reverse;
+        gap:28px;
+        width: 100%;
+    }
+    .banner-left, .banner-right {
+    width:100%;
+}
+.banner-image{
+    width: 100%;
+}
+.banner-title{
+    font-size:2.4rem;
+}
+.banner-description{
+    font-size:1rem;
+}
+.banner-left{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 
 
 

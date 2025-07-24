@@ -67,6 +67,60 @@ nav{
 
 }
 
+/* Plants Section Styles */
+.plants{
+    margin-top: 120px;
+}
+.plants-heading{
+    position: relative;
+}
+
+.plants-title{
+    font-weight: bold;
+    font-size: 3.125rem;
+    text-align: center;
+    
+}
+.plants-sub-title {
+    font-size:1.375rem;
+    margin-top: 16px;
+    margin-bottom: 50px;
+    text-align: center; 
+}
+.plants-card{
+    width: fit-content;
+}
+.flower-title{
+    font-weight: medium;
+    font-size: 1.375rem;
+    color:rgba(17, 17, 17, 1) ;
+    margin-top: 30px;
+    text-align: center;
+}
+.flower-price{
+    font-weight:bold;
+    font-size: 1.375rem;
+    color:rgba(17, 17, 17, 1) ;
+    margin-top:8px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.plants-button{
+    width: 100%;
+    height:50px;
+    background-color:rgba(233, 90, 8, 1) ;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    border: none;    
+}
+.plants-card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:30px 20px;
+}
+
+    
+
 
 
 
@@ -87,7 +141,7 @@ nav{
 
 
 /* Mobile Responsiveness */
-@media screen and (max-width:480px) {
+@media screen and (max-width:576px) {
     /* Navbar section */
     nav{
         width: 92.57%;

@@ -116,6 +116,30 @@ nav{
     gap:30px 20px;
 }
 
+/* Plants Lover Section */
+
+.plants-lover{
+    margin-top:210px ;
+    margin-bottom:130px;
+    display: flex;
+    gap:60px;
+}
+.plants-lover-right{
+    max-width:540px;
+    margin: 38px auto;
+}
+.plants-lover-right ul {
+    margin-left:28px;
+}
+.plants-lover-title{
+    font-weight: bold;
+    font-size: 3.125rem;
+}
+.plants-lover-right ul li{
+    font-size: 1.39rem;
+    margin-top: 20px;
+
+}
     
 
 
@@ -197,7 +221,10 @@ nav{
     font-size:2.4rem;   
 }
 .plants-sub-title{
-    font-size: 1.27rem;
+    font-size: 1.27rem;   
+}
+.break{
+    display: none;
 }
 
 

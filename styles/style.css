@@ -123,10 +123,13 @@ nav{
     margin-bottom:130px;
     display: flex;
     gap:60px;
+    position: relative;
+    
 }
 .plants-lover-right{
     max-width:540px;
     margin: 38px auto;
+    
 }
 .plants-lover-right ul {
     margin-left:28px;
@@ -139,6 +142,14 @@ nav{
     font-size: 1.39rem;
     margin-top: 20px;
 
+}
+
+
+.trusted-badge{
+    width: 24%;
+position: absolute;
+top:-124px;
+right:512px;
 }
     
 

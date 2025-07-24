@@ -18,7 +18,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .nav-items-container{
     display: flex;
@@ -26,4 +26,42 @@ nav{
 }
 .nav-items{
   color: rgba(137, 135, 161, 1);  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Responsiveness */
+@media screen and (max-width:480px) {
+    nav{
+        width: 92.57%;
+        margin-left: 16px;
+        margin-right: 16px;
+        
+    }
+    nav img{
+        transform: scale(1);
+    }
+    .nav-item-responsive{
+    font-size: 1rem;
+    }
+    
+    .hidden-01{
+        display: none;
+    }
 }

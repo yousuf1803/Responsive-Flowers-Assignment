@@ -149,6 +149,7 @@ nav{
 position: absolute;
 top:-124px;
 right:512px;
+filter:drop-shadow(0 4px 4px  rgba(0, 0, 0, 0.5));
 }
 
 /* Latest Deals Section */
@@ -329,7 +330,6 @@ width: 30%;
 }
 .column-2 ul li, .column-3 ul li{
     list-style: none;
-
 }
 .column-4 {
     display: flex;
@@ -348,6 +348,7 @@ width: 30%;
 .x-image{
     width:32px;
 }
+
 
     
 
@@ -380,6 +381,7 @@ width: 30%;
         width: 92.57%;
         margin-left: 16px;
         margin-right: 16px;
+        padding-top:20px;
         
     }
     nav img{
@@ -556,13 +558,13 @@ margin-bottom:100px;
 .join-title{
     width:90%;
     font-weight: bold;
-    font-size:1.5rem;
+    font-size:1.2rem;
     color:rgba(255, 255, 255, 1) ;
     margin: 0 auto;
 
 }
 .join-box input{
-    padding: 16px 28px;
+    padding:8px 20px;
     width:65%;
     height: 50px;
     font-size: 1rem;

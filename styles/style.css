@@ -179,12 +179,12 @@ right:512px;
 .deals-title-2{
     width:100%;
     font-weight: bold;
-    font-size: 2.1rem;
+    font-size:2rem;
     color:rgba(255, 255, 255, 1) ;
 }
 .deals-sub-title-2{
     font-weight:600;
-    font-size:1.75rem;
+    font-size:1.5rem;
     color:rgba(255, 255, 255, 1) ;
     margin-top: 16px;
     text-decoration:underline;
@@ -192,7 +192,7 @@ right:512px;
 .deals-title, .deals-title-3{
     width:240px;
     font-weight: bold;
-    font-size: 1.35rem;
+    font-size: 1.25rem;
     color:rgba(255, 255, 255, 1) ;
 }
 .deals-sub-title, .deals-sub-title-3{
@@ -208,7 +208,7 @@ right:512px;
 }
 .deals-1 img{
     display: block;
-    filter: brightness(65%);
+    filter: brightness(60%);
     border-radius: 14px;
 }
 .offer{
@@ -227,7 +227,7 @@ right:512px;
 }
 .deals-3 img{
     display: block;
-    filter: brightness(65%);
+    filter: brightness(60%);
     border-radius: 14px;
     
 }
@@ -247,7 +247,7 @@ right:512px;
 }
 .deals-2 img{
     display: block;
-    filter: brightness(68%);
+    filter: brightness(60%);
     border-radius: 14px;
     
 }
@@ -381,9 +381,77 @@ right:512px;
     font-size:0.875rem;
 }
 
+/* Latest Deals Section */
+
+.deals-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.deals-1{
+    width:100%;
+    
+
+}
+.deals-1 img{
+width:100%;
+
+}
+    
+
+.deals-2{
+    width: 100%;
+    height: 202px;
+    order:3;
+    
+}
+.deals-2 img{
+    width: 100%;
+    height:100%;
+}
+.deals-3{
+    width: 100%;
+    order:2;
+}
+.deals-3 img{
+    width: 100%;
+    height:100%;
+}
+.deals-title-2{
+    width:240px;
+    font-weight:bold;
+    font-size:1.25rem;
+}
+.deals-sub-title-2{
+    font-size:1rem;
+}
+.latest-deal-title{
+    width: 100%;
+    font-size: 1.5rem;
+}
+.latest-deal-sub-title{
+    width: 100%;
+    font-size:.875rem ;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.plants-lover{
+margin-bottom:100px;
+}
+.latest-deal-sub-title{
+    
+    margin-bottom:70px;
+}
 
 
 
+
+
+    
+    
 
 
 

@@ -494,8 +494,51 @@ margin-bottom:100px;
     margin-bottom:70px;
 }
 
+/* Join Section */
 
+.join{
+    width: 100%;
+    height:300px;
+    margin-top:80px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.join-content{
+    width:80%;
+    text-align:center;
+    margin-top:40px;
+    
+}
+.join-title{
+    width:90%;
+    font-weight: bold;
+    font-size:1.5rem;
+    color:rgba(255, 255, 255, 1) ;
+    margin: 0 auto;
 
+}
+.join-box input{
+    padding: 16px 28px;
+    width:65%;
+    height: 50px;
+    font-size: 1rem;
+}
+.join-button{
+    width:35%;
+   height:50px;
+    background-color:rgba(233, 90, 8, 1) ;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    border: none; 
+    font-size:1rem;    
+}
+.join-box{
+    width: 100%;
+   margin: 24px auto;
+   display: flex;
+   text-align: center;
+}
 
 
     

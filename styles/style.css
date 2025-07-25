@@ -36,7 +36,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10px;
+    padding-top:30px;
 }
 .nav-items-container{
     display: flex;
@@ -306,6 +306,49 @@ background-size: cover;
    display: flex;
    text-align: center;
 }
+
+/* Footer Section */
+
+.footer-section{
+    max-width: 1140px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+    
+
+.column-1{
+width: 30%;
+}
+.column-1-text{
+    font-size: 1.2rem;
+    margin-top: 16px;
+}
+.column-2 ul li, .column-3 ul li{
+    list-style: none;
+
+}
+.column-4 {
+    display: flex;
+    gap: 24px;
+}
+.column-2 ul {
+    display: flex;
+    flex-direction: column;
+    gap:32px;   
+} 
+.column-3 ul{
+    display: flex;
+    flex-direction: column;
+    gap:32px;   
+}
+.x-image{
+    width:32px;
+}
+
     
 
 
@@ -538,6 +581,36 @@ margin-bottom:100px;
    margin: 24px auto;
    display: flex;
    text-align: center;
+}
+
+/* Footer Section */
+
+.footer-section{
+    flex-direction: column;
+    gap:20px;
+    padding-left:16px;
+    padding-right:16px;
+
+}
+.column-1{
+    width: 100%;
+}
+.column-1-text{
+    width:90%;
+    font-size: 1rem;
+}
+.column-4 {
+    
+}
+.column-2 ul {
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+} 
+.column-3 ul{
+    display: flex;
+    flex-direction: column;
+    gap:32px;   
 }
 
 
